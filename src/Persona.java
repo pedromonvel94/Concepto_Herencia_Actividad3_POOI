@@ -6,6 +6,10 @@ public class Persona {
     private double estatura, peso;
     private LocalDate fechaNacimiento; // el formato que tendria al almacenar es YYYY-MM-DD
 
+    public Persona(){
+
+    }
+
     public Persona (String nombre, String apellido, char genero, double estatura, double peso, LocalDate fechaNacimiento){
         this.nombre = nombre;
         this.apellido = apellido;
