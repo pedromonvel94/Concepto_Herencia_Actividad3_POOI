@@ -1,8 +1,7 @@
 import java.time.LocalDate; //Usamos localdate para almacenar la fecha sin la hora.
 
 public class Persona {
-    private String nombre, apellido;
-    private String genero;
+    private String nombre, apellido, genero;
     private double estatura, peso;
     private LocalDate fechaNacimiento; // el formato que tendria al almacenar es YYYY-MM-DD
 

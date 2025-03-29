@@ -7,7 +7,6 @@ public class Profesor extends Persona{
     String tipoContratacion;
 
     public Profesor(){
-
     }
 
     public Profesor(int numSalon, String materia, String tipoContratacion, String nombre, String apellido, String genero, double estatura, double peso, LocalDate fechaNacimiento){
